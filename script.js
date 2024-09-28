@@ -147,7 +147,7 @@ function startTimer(duration, display) {
 
 // When the page loads, start a 5-minute countdown
 window.onload = function () {
-  const fiveMinutes = 60 * 5, // 5 minutes in seconds
+  const fiveMinutes = 60 * 1, // 5 minutes in seconds
         display = document.getElementById('countdown');
   
   startTimer(fiveMinutes, display);
